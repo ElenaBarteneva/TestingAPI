@@ -15,8 +15,7 @@ class TestCreatePet:
     validator = Validator()
 
     def test_create_pet(self, get_test_name):
-        url_ = self.url.create_pet
-        data_ = {
+        data = """{
           "id": 12999,
           "category": {
             "id": 0,
@@ -33,8 +32,8 @@ class TestCreatePet:
             }
           ],
           "status": "available"
-        }
-        response = self.request.post(url=url_, data=data_)
+        }"""
+        response = self.request.post(url=self.url.create_pet, data=data)
         self.assertions.assert_status_code(response=response, expected_status_code=HTTPStatus.CREATED, test_name=get_test_name)
         self.validator.validate_response(response=response, model=CreatePetSchema.create_pet)
         print(response.text)
