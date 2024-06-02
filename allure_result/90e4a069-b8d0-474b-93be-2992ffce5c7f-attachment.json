@@ -1,0 +1,18 @@
+{
+    "id": 50458,
+    "category": {
+        "id": 88667,
+        "name": "Gary Williams"
+    },
+    "name": "Mr. Joshua Daniels",
+    "photoUrls": [
+        "https://picsum.photos/539/130"
+    ],
+    "tags": [
+        {
+            "id": 48262,
+            "name": "Kelly Smith"
+        }
+    ],
+    "status": "available"
+}

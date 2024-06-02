@@ -1,0 +1,18 @@
+{
+    "id": 42233,
+    "category": {
+        "id": 84850,
+        "name": "John Henderson"
+    },
+    "name": "Dustin Taylor",
+    "photoUrls": [
+        "https://picsum.photos/728/190"
+    ],
+    "tags": [
+        {
+            "id": 67514,
+            "name": "Lisa Branch"
+        }
+    ],
+    "status": "available"
+}

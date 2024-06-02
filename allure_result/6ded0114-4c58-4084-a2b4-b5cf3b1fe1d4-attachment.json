@@ -1,0 +1,18 @@
+{
+    "id": 24671,
+    "category": {
+        "id": 75608,
+        "name": "David Smith"
+    },
+    "name": "Sarah Jones",
+    "photoUrls": [
+        "https://picsum.photos/450/136"
+    ],
+    "tags": [
+        {
+            "id": 73876,
+            "name": "Jorge Fry"
+        }
+    ],
+    "status": "available"
+}

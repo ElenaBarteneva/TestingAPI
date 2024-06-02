@@ -1,0 +1,18 @@
+{
+    "id": 78885,
+    "category": {
+        "id": 86644,
+        "name": "Emily Knapp"
+    },
+    "name": "Karen Turner",
+    "photoUrls": [
+        "https://picsum.photos/86/853"
+    ],
+    "tags": [
+        {
+            "id": 66499,
+            "name": "Brian Mitchell"
+        }
+    ],
+    "status": "sold"
+}

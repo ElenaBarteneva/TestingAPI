@@ -2,6 +2,8 @@ import os
 from dotenv import load_dotenv
 import requests
 
+from src.prepare_data.prepare_basic_data import BaseTestData
+
 load_dotenv()
 
 
@@ -35,8 +37,9 @@ class MyRequests:
                 url=base_url,
                 headers=headers,
                 cookies=cookies,
-                json=data
+                data=data
             )
+            BaseTestData.attach_response(response=response.json())
             return response
         except Exception as e:
             raise e
